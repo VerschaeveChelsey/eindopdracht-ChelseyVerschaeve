@@ -1,0 +1,70 @@
+$color-dark: #260914;
+$font-title: dunbar-low, sans-serif;
+$font-text: hero-new, sans-serif;
+$donker-oranje: #d9704a;
+$oranje: #f2ad85;
+$licht-oranje: #f1d1bf;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.c-logo {
+  margin: 0;
+  display: block;
+
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
+}
+
+.c-header {
+  background-color: $color-dark;
+  margin: 0;
+}
+
+.c-banner {
+  text-align: center;
+  background: url("../img/slide1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15rem 0;
+}
+
+.c-intro {
+  text-align: center;
+  padding: 5rem;
+
+  & h1 {
+    margin-bottom: 1.5rem;
+    font-family: $font-title;
+    font-weight: 600;
+    color: $donker-oranje;
+  }
+
+  & p {
+    margin-bottom: 0.6rem;
+    font-family: $font-text;
+  }
+}
+
+.c-mogelijkheden {
+  background-color: $oranje;
+  padding: 5rem;
+}
+
+.c-card {
+  background-color: $licht-oranje;
+
+  &__title {
+    font-family: $font-title;
+    color: $donker-oranje;
+    font-weight: 600;
+  }
+
+  &__text {
+    font-family: $font-text;
+  }
+}
