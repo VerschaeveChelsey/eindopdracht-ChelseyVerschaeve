@@ -57,6 +57,7 @@ $licht-oranje: #f1d1bf;
 
 .c-card {
   background-color: $licht-oranje;
+  height: 100%;
 
   &__title {
     font-family: $font-title;
@@ -67,4 +68,9 @@ $licht-oranje: #f1d1bf;
   &__text {
     font-family: $font-text;
   }
+}
+
+.c-footer {
+  background-color: $color-dark;
+  color: white;
 }

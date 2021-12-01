@@ -53,6 +53,7 @@
 
 .c-card {
   background-color: #f1d1bf;
+  height: 100%;
 }
 
 .c-card__title {
@@ -63,4 +64,9 @@
 
 .c-card__text {
   font-family: hero-new, sans-serif;
+}
+
+.c-footer {
+  background-color: #260914;
+  color: white;
 }
