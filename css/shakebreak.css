@@ -7,6 +7,14 @@
 
 footer {
   background-color: #260914;
+  padding: 1rem 0;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-family: dunbar-low, sans-serif;
+  font-weight: 600;
+  color: #d9704a;
 }
 
 .c-logo {
@@ -38,13 +46,6 @@ footer {
   padding: 5rem;
 }
 
-.c-intro h1 {
-  margin-bottom: 1.5rem;
-  font-family: dunbar-low, sans-serif;
-  font-weight: 600;
-  color: #d9704a;
-}
-
 .c-intro p {
   margin-bottom: 0.6rem;
   font-family: hero-new, sans-serif;
@@ -71,11 +72,6 @@ footer {
 }
 
 .c-footer {
-  background-color: #260914;
-  color: white;
-}
-
-.c-footer {
   color: white;
 }
 
@@ -85,4 +81,8 @@ footer {
 
 .c-footer--titel {
   list-style-type: none;
+}
+
+.c-blenders {
+  margin: 5rem 0;
 }

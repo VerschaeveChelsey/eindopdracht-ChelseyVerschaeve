@@ -14,6 +14,14 @@ $white: rgb(255, 255, 255);
 
 footer {
   background-color: $color-dark;
+  padding: 1rem 0;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-family: $font-title;
+  font-weight: 600;
+  color: $donker-oranje;
 }
 
 .c-logo {
@@ -42,13 +50,6 @@ footer {
   text-align: center;
   padding: 5rem;
 
-  & h1 {
-    margin-bottom: 1.5rem;
-    font-family: $font-title;
-    font-weight: 600;
-    color: $donker-oranje;
-  }
-
   & p {
     margin-bottom: 0.6rem;
     font-family: $font-text;
@@ -76,11 +77,6 @@ footer {
 }
 
 .c-footer {
-  background-color: $color-dark;
-  color: $white;
-}
-
-.c-footer {
   color: $white;
 
   &__item {
@@ -90,4 +86,8 @@ footer {
   &--titel {
     list-style-type: none;
   }
+}
+
+.c-blenders {
+  margin: 5rem 0;
 }
