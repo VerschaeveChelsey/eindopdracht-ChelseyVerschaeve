@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+footer {
+  background-color: #260914;
+}
+
 .c-logo {
   margin: 0;
   display: block;
@@ -69,4 +73,16 @@
 .c-footer {
   background-color: #260914;
   color: white;
+}
+
+.c-footer {
+  color: white;
+}
+
+.c-footer__item {
+  list-style-type: none;
+}
+
+.c-footer--titel {
+  list-style-type: none;
 }
