@@ -22,6 +22,7 @@ h1 {
   font-family: $font-title;
   font-weight: 600;
   color: $donker-oranje;
+  text-align: center;
 }
 
 .c-logo {
@@ -89,5 +90,6 @@ h1 {
 }
 
 .c-blenders {
-  margin: 5rem 0;
+  background-color: $oranje;
+  padding: 5rem;
 }

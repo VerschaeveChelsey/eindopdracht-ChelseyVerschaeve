@@ -15,6 +15,7 @@ h1 {
   font-family: dunbar-low, sans-serif;
   font-weight: 600;
   color: #d9704a;
+  text-align: center;
 }
 
 .c-logo {
@@ -84,5 +85,6 @@ h1 {
 }
 
 .c-blenders {
-  margin: 5rem 0;
+  background-color: #f2ad85;
+  padding: 5rem;
 }
