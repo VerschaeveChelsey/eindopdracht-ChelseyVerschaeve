@@ -1,10 +1,11 @@
-$color-dark: #260914;
 $font-title: dunbar-low, sans-serif;
 $font-text: hero-new, sans-serif;
+$color-dark: #260914;
 $donker-oranje: #d9704a;
 $oranje: #f2ad85;
 $licht-oranje: #f1d1bf;
 $white: rgb(255, 255, 255);
+$button: #dcf0f2;
 
 * {
   padding: 0;
@@ -12,9 +13,26 @@ $white: rgb(255, 255, 255);
   box-sizing: border-box;
 }
 
+p {
+  font-family: $font-text;
+}
+
 footer {
   background-color: $color-dark;
   padding: 1rem 0;
+}
+
+.btn {
+  background-color: $donker-oranje;
+  font-weight: bold;
+  border: $donker-oranje;
+
+  &:hover {
+    background-color: $button;
+    color: $donker-oranje;
+    border: $donker-oranje;
+    font-weight: bold;
+  }
 }
 
 h1 {
@@ -28,10 +46,6 @@ h1 {
 .c-logo {
   margin: 0;
   display: block;
-
-  @media only screen and (max-width: 768px) {
-    text-align: center;
-  }
 }
 
 .c-header {
@@ -82,14 +96,21 @@ h1 {
 
   &__item {
     list-style-type: none;
-  }
 
-  &--titel {
-    list-style-type: none;
+    &--titel {
+      list-style-type: none;
+      font-size: 20px;
+      font-weight: 600;
+    }
   }
 }
 
 .c-blenders {
   background-color: $oranje;
   padding: 5rem;
+}
+
+.c-price {
+  color: $donker-oranje;
+  font-weight: 600;
 }

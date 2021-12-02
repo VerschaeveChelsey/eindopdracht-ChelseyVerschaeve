@@ -5,9 +5,26 @@
           box-sizing: border-box;
 }
 
+p {
+  font-family: hero-new, sans-serif;
+}
+
 footer {
   background-color: #260914;
   padding: 1rem 0;
+}
+
+.btn {
+  background-color: #d9704a;
+  font-weight: bold;
+  border: #d9704a;
+}
+
+.btn:hover {
+  background-color: #dcf0f2;
+  color: #d9704a;
+  border: #d9704a;
+  font-weight: bold;
 }
 
 h1 {
@@ -21,12 +38,6 @@ h1 {
 .c-logo {
   margin: 0;
   display: block;
-}
-
-@media only screen and (max-width: 768px) {
-  .c-logo {
-    text-align: center;
-  }
 }
 
 .c-header {
@@ -80,11 +91,18 @@ h1 {
   list-style-type: none;
 }
 
-.c-footer--titel {
+.c-footer__item--titel {
   list-style-type: none;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .c-blenders {
   background-color: #f2ad85;
   padding: 5rem;
+}
+
+.c-price {
+  color: #d9704a;
+  font-weight: 600;
 }
