@@ -66,7 +66,7 @@ h1 {
   padding: 5rem;
 
   & p {
-    margin-bottom: 0.6rem;
+    margin-bottom: 1rem;
     font-family: $font-text;
   }
 }
@@ -113,4 +113,30 @@ h1 {
 .c-price {
   color: $donker-oranje;
   font-weight: 600;
+}
+
+.c-types {
+  background-image: url("../img/types.jpg");
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15rem 0;
+
+  &__intro {
+    text-align: center;
+    padding: 5rem;
+
+    & p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__blenders {
+    background-color: $licht-oranje;
+    padding: 2rem 0;
+  }
+
+  &__info {
+    list-style-type: none;
+  }
 }
