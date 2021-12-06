@@ -121,14 +121,11 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 15rem 0;
+  text-align: justify;
 
   &__intro {
     text-align: center;
     padding: 5rem;
-
-    & p {
-      margin-bottom: 1rem;
-    }
   }
 
   &__blender1,

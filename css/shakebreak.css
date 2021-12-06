@@ -113,15 +113,12 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 15rem 0;
+  text-align: justify;
 }
 
 .c-types__intro {
   text-align: center;
   padding: 5rem;
-}
-
-.c-types__intro p {
-  margin-bottom: 1rem;
 }
 
 .c-types__blender1, .c-types__blender3, .c-types__blender5 {
