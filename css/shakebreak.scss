@@ -135,13 +135,19 @@ h1 {
     background-color: $licht-oranje;
     padding: 2rem 0;
   }
-
-  &__info {
-    list-style-type: none;
-  }
 }
 
 .c-maps {
   width: 100%;
   align-items: center;
+}
+
+td {
+  padding-bottom: 0.5rem;
+  text-align: left;
+}
+
+th {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
