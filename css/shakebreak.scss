@@ -131,8 +131,16 @@ h1 {
     }
   }
 
-  &__blenders {
+  &__blender1,
+  &__blender3,
+  &__blender5 {
     background-color: $licht-oranje;
+    padding: 2rem 0;
+  }
+
+  &__blender2,
+  &__blender4 {
+    background-color: $white;
     padding: 2rem 0;
   }
 }

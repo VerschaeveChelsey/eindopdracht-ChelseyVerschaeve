@@ -124,8 +124,13 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.c-types__blenders {
+.c-types__blender1, .c-types__blender3, .c-types__blender5 {
   background-color: #f1d1bf;
+  padding: 2rem 0;
+}
+
+.c-types__blender2, .c-types__blender4 {
+  background-color: white;
   padding: 2rem 0;
 }
 
