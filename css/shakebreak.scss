@@ -43,6 +43,12 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: $font-title;
+  font-weight: 500;
+  color: $donker-oranje;
+}
+
 .c-logo {
   margin: 0;
   display: block;
@@ -150,6 +156,7 @@ h1 {
 .c-maps {
   width: 100%;
   align-items: center;
+  margin: 2rem 0;
 }
 
 td {
@@ -164,8 +171,21 @@ th {
 
 .c-contactformulier {
   padding: 5rem;
+
+  .btn {
+    margin-top: 2rem;
+  }
 }
 
 .c-form {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.c-open {
+  background-color: $donker-oranje;
+  padding: 2rem;
+
+  &__1 {
+    padding-right: 30rem;
+  }
 }
