@@ -71,6 +71,7 @@ h1 {
 .c-card {
   background-color: #f1d1bf;
   height: 100%;
+  margin-bottom: 2rem;
 }
 
 .c-card__title {
