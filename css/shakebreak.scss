@@ -89,6 +89,10 @@ h1 {
   &__text {
     font-family: $font-text;
   }
+
+  &__img {
+    justify-content: center;
+  }
 }
 
 .c-footer {
