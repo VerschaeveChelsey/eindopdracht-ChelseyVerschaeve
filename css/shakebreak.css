@@ -22,8 +22,8 @@ footer {
 }
 
 .btn:hover {
-  background-color: #dcf0f2;
-  color: #d9704a;
+  background-color: #550c27;
+  color: white;
   border: #d9704a;
   font-weight: bold;
 }
@@ -157,6 +157,10 @@ h2 {
 .c-types__blender2, .c-types__blender4 {
   background-color: white;
   padding: 2rem 0;
+}
+
+.c-types__image {
+  text-align: right;
 }
 
 .c-maps {

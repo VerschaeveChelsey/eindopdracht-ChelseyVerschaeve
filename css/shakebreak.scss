@@ -5,7 +5,7 @@ $donker-oranje: #d9704a;
 $oranje: #f2ad85;
 $licht-oranje: #f1d1bf;
 $white: rgb(255, 255, 255);
-$button: #dcf0f2;
+$button: #550c27;
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
 
@@ -31,7 +31,7 @@ footer {
 
   &:hover {
     background-color: $button;
-    color: $donker-oranje;
+    color: $white;
     border: $donker-oranje;
     font-weight: bold;
   }
@@ -164,6 +164,10 @@ h2 {
   &__blender4 {
     background-color: $white;
     padding: 2rem 0;
+  }
+
+  &__image{
+    text-align: right;
   }
 }
 
