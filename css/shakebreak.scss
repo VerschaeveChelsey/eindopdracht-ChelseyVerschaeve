@@ -7,6 +7,8 @@ $licht-oranje: #f1d1bf;
 $white: rgb(255, 255, 255);
 $button: #dcf0f2;
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
+
 * {
   padding: 0;
   margin: 0;
@@ -84,8 +86,11 @@ h2 {
 
 .c-card {
   background-color: $licht-oranje;
-  height: 100%;
   margin-bottom: 2rem;
+
+  @media only screen and (min-width: 993px) {
+    height: 100%;
+  }
 
   &__title {
     font-family: $font-title;
@@ -104,6 +109,14 @@ h2 {
 
 .c-footer {
   color: $white;
+
+  & a {
+    color: white;
+  }
+
+  & li {
+    list-style-type: none;
+  }
 
   &__item {
     list-style-type: none;

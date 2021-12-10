@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
 * {
   padding: 0;
   margin: 0;
@@ -76,8 +77,13 @@ h2 {
 
 .c-card {
   background-color: #f1d1bf;
-  height: 100%;
   margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 993px) {
+  .c-card {
+    height: 100%;
+  }
 }
 
 .c-card__title {
@@ -98,6 +104,14 @@ h2 {
 
 .c-footer {
   color: white;
+}
+
+.c-footer a {
+  color: white;
+}
+
+.c-footer li {
+  list-style-type: none;
 }
 
 .c-footer__item {
