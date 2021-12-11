@@ -31,15 +31,16 @@ footer {
 h1 {
   margin-bottom: 1.5rem;
   font-family: dunbar-low, sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   color: #d9704a;
   text-align: center;
 }
 
 h2 {
   font-family: dunbar-low, sans-serif;
-  font-weight: 500;
   color: #d9704a;
+  font-weight: 600;
+  font-size: 1.75rem;
 }
 
 .c-logo {
@@ -198,6 +199,26 @@ th {
   padding: 2rem;
 }
 
-.c-open__1 {
-  padding-right: 30rem;
+.c-review {
+  padding: 2rem;
+}
+
+.c-review img {
+  margin: 1rem;
+}
+
+.c-review__body {
+  text-align: center;
+}
+
+.c-review__body .c-review__text--1 {
+  padding-bottom: 3rem;
+}
+
+.c-review__body .c-review__text--2 {
+  padding-bottom: 4rem;
+}
+
+.c-review__title {
+  padding-top: 1.5rem;
 }

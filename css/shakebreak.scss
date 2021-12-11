@@ -40,15 +40,16 @@ footer {
 h1 {
   margin-bottom: 1.5rem;
   font-family: $font-title;
-  font-weight: 600;
+  font-weight: 800;
   color: $donker-oranje;
   text-align: center;
 }
 
 h2 {
   font-family: $font-title;
-  font-weight: 500;
   color: $donker-oranje;
+  font-weight: 600;
+  font-size: 1.75rem;
 }
 
 .c-logo {
@@ -166,7 +167,7 @@ h2 {
     padding: 2rem 0;
   }
 
-  &__image{
+  &__image {
     text-align: right;
   }
 }
@@ -202,8 +203,28 @@ th {
 .c-open {
   background-color: $donker-oranje;
   padding: 2rem;
+}
 
-  &__1 {
-    padding-right: 30rem;
+.c-review {
+  padding: 2rem;
+
+  & img {
+    margin: 1rem;
+  }
+
+  &__body {
+    text-align: center;
+
+    .c-review__text--1 {
+      padding-bottom: 3rem;
+    }
+
+    .c-review__text--2 {
+      padding-bottom: 4rem;
+    }
+  }
+
+  &__title {
+    padding-top: 1.5rem;
   }
 }
